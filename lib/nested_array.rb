@@ -21,9 +21,9 @@ def assembled_matrix
   # This matrix will represent a produce storage room
   # Organic standards require that organic products be stored ABOVE conventional, not the other way around
   # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
-CONVENTIONAL_PRODUCE.sort = conventional
-ORGANIC_PRODUCE.sort = organic
-  produce_nest = [conventional, organic]
+CONVENTIONAL_PRODUCE.sort
+ORGANIC_PRODUCE.sort
+  produce_nest = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
 
 end
 
