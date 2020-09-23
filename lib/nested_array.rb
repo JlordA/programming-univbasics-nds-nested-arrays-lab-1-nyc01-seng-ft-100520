@@ -23,7 +23,7 @@ def assembled_matrix
   # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
 #CONVENTIONAL_PRODUCE.sort
 #ORGANIC_PRODUCE.sort
-  produce_nest = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
+  produce_nest = [[CONVENTIONAL_PRODUCE], [ORGANIC_PRODUCE]]
 
 end
 
